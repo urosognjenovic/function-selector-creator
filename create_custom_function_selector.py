@@ -4,7 +4,7 @@ from exceptions import *
 from input_validation import *
 from function_name_generator import *
 
-DEFAULT_FUNCTION_SELECTOR_LENGTH = 4
+DEFAULT_FUNCTION_SELECTOR_LENGTH = 8
 
 
 def create_custom_function_selector(
@@ -12,7 +12,7 @@ def create_custom_function_selector(
     max_function_name_length,
     target_selector_length=DEFAULT_FUNCTION_SELECTOR_LENGTH,
 ):
-    print("Enter the target selector (without 0x):")
+    print("Enter the target selector (without '0x'):")
     target_selector = input()
 
     try:
