@@ -1,6 +1,6 @@
 ## Intro
 
-With this repo you can create custom function selectors in Solidity with the desired parameters.
+This repository allows you to create Solidity functions that accept specified parameters and generate the corresponding selector.
 
 *The function selector is the first 4 bytes of the keccak256 hash of the function signature, and it is used to identify functions.*
 
