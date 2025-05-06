@@ -12,7 +12,7 @@ This repository allows you to create Solidity functions that accept specified pa
 ## Getting started
 
 ```
-git clone https://github.com/urosognjenovic/function-selector-creator
+git clone https://github.com/urosognjenovic/solidity-function-selector-creator
 ```
 
 ```
